@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DD22CAE31E6E92FC00DD1728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22CAE21E6E92FC00DD1728 /* AppDelegate.swift */; };
-		DD22CAE51E6E92FC00DD1728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22CAE41E6E92FC00DD1728 /* ViewController.swift */; };
+		DD22CAE51E6E92FC00DD1728 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22CAE41E6E92FC00DD1728 /* MainVC.swift */; };
 		DD22CAE81E6E930300DD1728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD22CAE61E6E930300DD1728 /* Main.storyboard */; };
 		DD22CAEA1E6E930400DD1728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD22CAE91E6E930400DD1728 /* Assets.xcassets */; };
 		DD22CAED1E6E930400DD1728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD22CAEB1E6E930400DD1728 /* LaunchScreen.storyboard */; };
+		DD22CAF81E6E9AD700DD1728 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD22CAF71E6E9AD700DD1728 /* still time.ttf */; };
+		DD22CAFA1E6E9C1800DD1728 /* videoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22CAF91E6E9C1800DD1728 /* videoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD22CADF1E6E92FA00DD1728 /* E23 PartyRockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E23 PartyRockApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD22CAE21E6E92FC00DD1728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD22CAE41E6E92FC00DD1728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD22CAE41E6E92FC00DD1728 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		DD22CAE71E6E930300DD1728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD22CAE91E6E930400DD1728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD22CAEC1E6E930400DD1728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD22CAEE1E6E930500DD1728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD22CAF71E6E9AD700DD1728 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		DD22CAF91E6E9C1800DD1728 /* videoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		DD22CAE11E6E92FA00DD1728 /* E23 PartyRockApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD22CAF61E6E953F00DD1728 /* View */,
+				DD22CAF51E6E953900DD1728 /* Model */,
+				DD22CAF41E6E948B00DD1728 /* Controllor */,
 				DD22CAE21E6E92FC00DD1728 /* AppDelegate.swift */,
-				DD22CAE41E6E92FC00DD1728 /* ViewController.swift */,
 				DD22CAE61E6E930300DD1728 /* Main.storyboard */,
-				DD22CAE91E6E930400DD1728 /* Assets.xcassets */,
 				DD22CAEB1E6E930400DD1728 /* LaunchScreen.storyboard */,
+				DD22CAE91E6E930400DD1728 /* Assets.xcassets */,
 				DD22CAEE1E6E930500DD1728 /* Info.plist */,
+				DD22CAF71E6E9AD700DD1728 /* still time.ttf */,
 			);
 			path = "E23 PartyRockApp";
+			sourceTree = "<group>";
+		};
+		DD22CAF41E6E948B00DD1728 /* Controllor */ = {
+			isa = PBXGroup;
+			children = (
+				DD22CAE41E6E92FC00DD1728 /* MainVC.swift */,
+				DD22CAF91E6E9C1800DD1728 /* videoVC.swift */,
+			);
+			name = Controllor;
+			sourceTree = "<group>";
+		};
+		DD22CAF51E6E953900DD1728 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DD22CAF61E6E953F00DD1728 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD22CAED1E6E930400DD1728 /* LaunchScreen.storyboard in Resources */,
+				DD22CAF81E6E9AD700DD1728 /* still time.ttf in Resources */,
 				DD22CAEA1E6E930400DD1728 /* Assets.xcassets in Resources */,
 				DD22CAE81E6E930300DD1728 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD22CAE51E6E92FC00DD1728 /* ViewController.swift in Sources */,
+				DD22CAE51E6E92FC00DD1728 /* MainVC.swift in Sources */,
+				DD22CAFA1E6E9C1800DD1728 /* videoVC.swift in Sources */,
 				DD22CAE31E6E92FC00DD1728 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
